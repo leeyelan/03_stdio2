@@ -4,14 +4,15 @@
 
 int main(void) {
  
- int a;
- int b;
-printf("input two integers : ");
-scanf("%d %d", &a, &b);
+int input_int;
+float input_float;
 
- printf("done");
+printf("enter an integer : ");
+scanf("%d",&input_int);
 
-  printf("Result is %f\n", (float) a/b);
- 
+printf("enter a float : ");
+scanf("%f", &input_float);
+
+printf("integer : %d, float : %f\n", input_int, input_float);
  return 0;
 }
