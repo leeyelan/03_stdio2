@@ -5,13 +5,13 @@
 
 int main(void) {
 
- int a;
+int a;
  int b;
- printf("Write Two number: ");
- scanf("%d %d", &a, &b);
- 
- Printf("Result is : %f\n", (float) a/b);
+printf("input two integers : ");
+scanf("%d %d", &a, &b);
 
+ printf("done");
 
- return 0;
+  printf("Result is %f\n", (float) a/b);
+	return 0;
 }
