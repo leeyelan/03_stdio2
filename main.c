@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(void) {
+ 
+ char c;
+ printf("input an alphabet : ");
+ scanf("%c", &c);
+printf(" input alphabet is %c (%d), and the next one is %c (%d)\n", c,c,c+1,c+1);
+ 
+ 
+ return 0;
+}
