@@ -4,11 +4,14 @@
 
 int main(void) {
  
- char c;
- printf("input an alphabet : ");
- scanf("%c", &c);
-printf(" input alphabet is %c (%d), and the next one is %c (%d)\n", c,c,c+1,c+1);
- 
+ int a;
+ int b;
+printf("input two integers : ");
+scanf("%d %d", &a, &b);
+
+ printf("done");
+
+  printf("Result is %f\n", (float) a/b);
  
  return 0;
 }
